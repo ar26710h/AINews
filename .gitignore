@@ -1,0 +1,36 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# 环境与密钥（运行环境在仓库外，密钥只存本地）
+.env
+.env.*
+!.env.example
+env/
+
+# 数据与产物
+data/
+uploads/
+exports/
+logs/
+*.log
+tmp/
+
+# 前端
+node_modules/
+dist/
+.vite/
+*.local
+
+# 编辑器 / 系统
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini
